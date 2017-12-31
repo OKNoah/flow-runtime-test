@@ -1,7 +1,10 @@
 {
   "presets": [
-    "stage-2",
-    "react"
+    "@babel/preset-env",
+    "@babel/preset-stage-2"
   ],
-  "plugins": [["flow-runtime"], "transform-decorators-legacy"]
+  "plugins": [
+    ["flow-runtime"],
+    "transform-decorators-legacy"
+  ]
 }
